@@ -149,6 +149,13 @@ It holds SimWin's release files; SimWin's source is not here.
 - [Releases](https://github.com/ShreeBhagwat/simwin-releases/releases): every version, with release notes.
 - [`licenses/`](licenses): third-party notices and the Wine source offer.
 
+## Licence
+
+SimWin is free to use while it's in beta, for developing and testing your own apps, under the
+[SimWin Licence Agreement](LICENSE.md) (also at [simwin.dev/license](https://simwin.dev/license/) and in SimWin ▸ About SimWin).
+The apps you build with SimWin are yours. Open-source components keep their own licences, listed in
+[`THIRD_PARTY_NOTICES.md`](https://github.com/ShreeBhagwat/simwin-releases/blob/main/licenses/THIRD_PARTY_NOTICES.md).
+
 ---
 
 SimWin is made by Codeaamy Private Limited. It is not affiliated with, or endorsed by, Microsoft, Google or the Wine project.

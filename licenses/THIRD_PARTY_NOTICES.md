@@ -1,6 +1,6 @@
 # SimWin third-party notices
 
-SimWin © Codeaamy Private Limited.
+SimWin © 2026 Codeaamy Private Limited. Use of SimWin is governed by the SimWin Licence Agreement (`SimWin-LICENSE.md`).
 
 ## Included in SimWin.app
 
