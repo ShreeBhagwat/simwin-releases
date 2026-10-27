@@ -6,6 +6,15 @@
     <description>SimWin updates</description>
     <language>en</language>
     <item>
+      <title>SimWin 0.0.3</title>
+      <pubDate>Tue, 27 Oct 2026 20:47:46 GMT</pubDate>
+      <sparkle:version>20261028015517</sparkle:version>
+      <sparkle:shortVersionString>0.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>Performance profiler: a live readout on the taskbar (frame rate, frame time, CPU and memory) and a Performance panel (Window ▸ Performance…, ⌥⌘P) with frame timings, CPU and memory charts, what your app, the runtime and SimWin each use, and startup times. Record a session and export it as CSV or JSON. Works when the IDE is attached, too.</li><li>Projects without a windows folder: instead of a build error, SimWin offers to enable Windows for the project, as your IDE does for iOS and Android. Nothing changes until you click Enable Windows.</li><li>Export logs: save the log as a text file or all of SimWin&#x27;s logs as a zip (Export in the log view, or Export Logs… in the menu bar).</li><li>The simulator window can no longer be made smaller than your app.</li><li>Lighter on your Mac: while no app runs, SimWin&#x27;s Windows background processes now use about 0.2% CPU and 63 MB (was 1.3% and 83 MB), and the performance readout uses about half the CPU it did. App logs on disk stop at 10 MB.</li><li>Stopping an app from your IDE no longer shows &quot;quit unexpectedly (exit code 143)&quot;.</li><li>Changing the scale, language or profile (or Relaunch) no longer makes the simulator disappear while the app restarts: it stays where it is and says what it is applying, for example &quot;Applying 125% scale…&quot;.</li><li>SimWin no longer leaves processes running. Quitting ends everything it started: builds, your app and the Windows background services, including when you quit while a build or launch is still in progress. If SimWin crashes or is force-quit, it cleans up what was left the next time it opens. Previously these could keep using memory and CPU until you restarted your Mac.</li><li>Redesigned About window, and a simpler setup with one progress bar.</li><li>Anonymous usage statistics (which features are used and how builds go) help us improve SimWin. Never your code, project names or file paths. Turn it off in Settings ▸ Share anonymous usage data. Details: https://simwin.dev/privacy/</li><li>Licence Agreement updated to version 1.1 (privacy section).</li><li>Signed with Developer ID and notarized by Apple. Universal (Apple Silicon and Intel), macOS 14 or later.</li></ul>]]></description>
+      <enclosure url="https://simwin.dev/download/SimWin-0.0.3.dmg" sparkle:edSignature="lVge5WQpZ5iTQLSLDGAHoAXw1qUBQCV4bJ8TcR9gyVlIBrNyNGJJ4eSQMxz9vAmX51EV8tN+xRoQkxTyDfUlBA==" length="9648779" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>SimWin 0.0.2</title>
       <pubDate>Tue, 27 Oct 2026 09:48:21 GMT</pubDate>
       <sparkle:version>20261027151439</sparkle:version>
