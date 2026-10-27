@@ -6,6 +6,15 @@
     <description>SimWin updates</description>
     <language>en</language>
     <item>
+      <title>SimWin 0.0.2</title>
+      <pubDate>Tue, 27 Oct 2026 09:48:21 GMT</pubDate>
+      <sparkle:version>20261027151439</sparkle:version>
+      <sparkle:shortVersionString>0.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>SimWin 0.0.2 Beta</p><p>SimWin is now in beta, for Windows debug builds only. Version numbers restart at 0.0.x for the beta; if you have 0.1.0, this update is newer and installs as usual.</p><ul><li>The simulator is a Windows-style desktop with a SimWin wallpaper, a taskbar, a Start menu and quick settings. Your app runs inside it, as one window with the simulator, with no separate Dock icon.</li><li>Real Windows title bar: minimise goes to the taskbar, maximise fills the simulator&#x27;s desktop, and restore and close work as on Windows.</li><li>Wi-Fi switch in the taskbar (or simwin network off) to test offline handling; the debugger stays connected.</li><li>Apps you&#x27;ve run appear as desktop icons. Double-click to build and run; right-click to Run, Show in Finder or Remove from Desktop.</li><li>SimWin opens to the simulator, with ▶ to run a recent project and ⚙ for Settings.</li><li>Faster runs: SimWin keeps Wine warm between runs (about 9 s instead of 16 s on our test Mac).</li><li>No more Wine error dialogs when an app closes. If an app quits unexpectedly, SimWin tells you, with Show Logs and Report a Problem.</li><li>Changing the display scale or locale keeps your app in front.</li><li>New About window with Check for Updates and readable acknowledgements, and the SimWin Licence Agreement (Help ▸ Licence Agreement).</li><li>Signed with Developer ID and notarized by Apple. Universal (Apple Silicon and Intel), macOS 14 or later.</li></ul>]]></description>
+      <enclosure url="https://simwin.dev/download/SimWin-0.0.2.dmg" sparkle:edSignature="6HeI9cyLC0elMW7kutq0r8yztb5Ufd/Pf8mLcPg2l/LGgCiZE/zOD1uj2XocO13WcQOo/uuudI6lmOYZa1w7CQ==" length="8208577" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>SimWin 0.1.0</title>
       <pubDate>Tue, 27 Oct 2026 04:52:15 GMT</pubDate>
       <sparkle:version>20261027102028</sparkle:version>
