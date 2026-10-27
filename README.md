@@ -42,10 +42,10 @@ $ file out/simwin_sample.exe
 simwin_sample.exe: PE32+ executable (GUI) x86-64, for MS Windows
 ```
 
-- **Compiled for Windows.** clang targeting Windows x64 (llvm-mingw), CMake and Ninja compile your runner and plugins into a 64-bit Windows executable.
+- **Compiled for Windows.** A Windows x64 cross-compiler on your Mac compiles your runner and plugins into a 64-bit Windows executable.
 - **Flutter's Windows engine.** Your Dart code runs on `flutter_windows.dll`, the same engine `flutter build windows` uses, not Flutter's macOS engine.
 - **Windows code paths run.** `Platform.isWindows` is true, paths are `C:\…`, and your plugins' Win32 C++ code is compiled and called.
-- **Not a VM, not a look-alike.** Wine runs the `.exe` by translating its Windows API calls to macOS. There is no copy of Windows and no Mac version of your app.
+- **Not a VM, not a look-alike.** A compatibility layer runs the `.exe` by translating its Windows API calls to macOS. There is no copy of Windows and no Mac version of your app.
 
 ## Install
 
@@ -92,9 +92,9 @@ What happens when you press Run:
 | Step | |
 |---|---|
 | Your project | Copied to a private staging folder. The original is never changed. |
-| Compiled for Windows x64 | clang (llvm-mingw), CMake and Ninja, with Flutter's Windows engine. |
+| Compiled for Windows x64 | A Windows x64 cross-compiler, with Flutter's Windows engine. |
 | `my_app.exe` | The same debug build a Windows PC would produce. |
-| Runs on your Mac | Through Wine, a compatibility layer, not a VM. Graphics go DXVK → MoltenVK → Metal. |
+| Runs on your Mac | Through a compatibility layer, not a VM. Graphics are translated to Metal. |
 | Connected to your IDE | Over the Dart VM service: hot reload, breakpoints, DevTools. |
 
 The first build of a project takes a few minutes, while SimWin fetches Flutter's Windows engine files and compiles everything.
@@ -147,7 +147,7 @@ It holds SimWin's release files; SimWin's source is not here.
 
 - `download/`: the newest DMG, its SHA-256 and the update feed, served as `https://simwin.dev/download/SimWin.dmg` and `https://simwin.dev/download/appcast.xml`.
 - [Releases](https://github.com/ShreeBhagwat/simwin-releases/releases): every version, with release notes.
-- [`licenses/`](licenses): third-party notices and the Wine source offer.
+- [`licenses/`](licenses): third-party notices and source offers.
 
 ## Licence
 
@@ -158,5 +158,5 @@ The apps you build with SimWin are yours. Open-source components keep their own 
 
 ---
 
-SimWin is made by Codeaamy Private Limited. It is not affiliated with, or endorsed by, Microsoft, Google or the Wine project.
+SimWin is made by Codeaamy Private Limited. It is not affiliated with, or endorsed by, Microsoft or Google.
 Windows is a trademark of Microsoft Corporation. Flutter is a trademark of Google LLC. Mac and macOS are trademarks of Apple Inc.

@@ -1,6 +1,6 @@
 # SimWin Licence Agreement
 
-Version 1.0 · Effective 27 October 2026
+Version 1.1 · Effective 27 October 2026
 
 This agreement is between you and Codeaamy Private Limited, Pune, India ("Codeaamy", "we", "us"). It covers the SimWin app for macOS, the `simwin` command-line tool, and their updates (together, "SimWin"). By installing or using SimWin, you agree to it. If you don't agree, don't install or use SimWin.
 
@@ -36,7 +36,7 @@ SimWin checks for updates and offers to install them. This agreement applies to 
 
 ## 6. Privacy
 
-SimWin has no analytics, no tracking and no account, and your code stays on your Mac. The details are at https://simwin.dev/privacy/.
+SimWin has no account and your code stays on your Mac. It sends anonymous usage statistics (such as which features are used, how builds go, and the app and macOS versions), never your code, project or app names, file paths or personal data; you can turn this off in SimWin's Settings. The details are at https://simwin.dev/privacy/.
 
 ## 7. Ownership
 
