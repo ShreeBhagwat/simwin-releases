@@ -5,5 +5,14 @@
     <link>https://simwin.dev/download/appcast.xml</link>
     <description>SimWin updates</description>
     <language>en</language>
+    <item>
+      <title>SimWin 0.1.0</title>
+      <pubDate>Tue, 27 Oct 2026 04:52:15 GMT</pubDate>
+      <sparkle:version>20261027102028</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>SimWin 0.1.0, the first release.</p><ul><li>Run the Windows debug build of your Flutter app on your Mac, as the IDE device “SimWin · Windows 11”.</li><li>Hot reload, hot restart, breakpoints and DevTools.</li><li>Toolbar for display scale, window size, light or dark mode and locale; screenshots and recordings.</li><li>Help ▸ Report a Problem… to send us diagnostics.</li><li>Signed with Developer ID and notarized by Apple. Universal (Apple Silicon and Intel), macOS 14 or later.</li></ul>]]></description>
+      <enclosure url="https://simwin.dev/download/SimWin-0.1.0.dmg" sparkle:edSignature="2mCiI3BOGl5ync92Ds2oEQFheKx2cQi6Sstn0dDFhkGlR/lO6qNq+FqpEhFmnFx86Dh/gyqrFBJd2ZgnQHPGAw==" length="6493574" type="application/octet-stream"/>
+    </item>
   </channel>
 </rss>
