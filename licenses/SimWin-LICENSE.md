@@ -26,9 +26,9 @@ Except where the law allows it regardless of this agreement, you may not:
 
 ## 4. Open-source components
 
-SimWin includes, and downloads during setup, open-source software such as Sparkle, Wine, DXVK, MoltenVK, llvm-mingw, CMake, Ninja and Flutter's Windows engine files. Each is licensed under its own terms, which are listed in SimWin ▸ About SimWin and included in `SimWin.app/Contents/Resources/licenses`. Nothing in this agreement limits your rights under those licences. Wine is licensed under the GNU LGPL; how to get its source code is described in `WINE_SOURCE_OFFER.md`.
+SimWin includes, and downloads during setup, open-source software. Each component is licensed under its own terms, which are included in `SimWin.app/Contents/Resources/licenses` (SimWin ▸ About SimWin ▸ Open-Source Licences). Nothing in this agreement limits your rights under those licences, including any right to obtain source code that they give you; how to do so is described there.
 
-SimWin does not include or download Microsoft software. Windows is a trademark of Microsoft Corporation, Flutter is a trademark of Google LLC, and Mac and macOS are trademarks of Apple Inc. SimWin is not affiliated with, or endorsed by, Microsoft, Google, Apple or the Wine project.
+SimWin does not include or download Microsoft software. Windows is a trademark of Microsoft Corporation, Flutter is a trademark of Google LLC, and Mac and macOS are trademarks of Apple Inc. SimWin is not affiliated with, or endorsed by, Microsoft, Google or Apple.
 
 ## 5. Updates and changes to this agreement
 
