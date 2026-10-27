@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Test your Flutter Windows app, right on your Mac.</strong><br>
-  Hot reload · Breakpoints · DevTools
+  <strong>Beta 0.0.2</strong> · Debug builds · Hot reload · DevTools
 </p>
 
 <p align="center">
@@ -23,6 +23,11 @@
 
 SimWin compiles your Flutter app into a **real Windows `.exe`** on your Mac and runs it in a Windows 11-style simulator.
 Pick **SimWin · Windows 11** in VS Code or Android Studio and press Run. No PC, no virtual machine.
+
+> [!NOTE]
+> **SimWin is in beta (version 0.0.2) and makes debug builds only.** It works for everyday debugging with hot reload,
+> breakpoints and DevTools, but expect rough edges. Release and profile builds aren't supported yet.
+> Please [report anything that goes wrong](#found-a-problem).
 
 ## A real Windows app, not a look-alike
 
@@ -114,7 +119,7 @@ Run `simwin help <command>` for the options.
 > [!CAUTION]
 > **Still do a final check on Windows.** This is your real Windows build running under a compatibility layer, not Windows itself. Fonts, system dialogs (file pickers, printing) and some Win32 APIs can differ.
 
-- **Debug builds only.** Release and profile builds need Windows-only tools, so build the `.exe` you ship on Windows or in CI.
+- **Beta, debug builds only.** Release and profile builds need Windows-only tools, so build the `.exe` you ship on Windows or in CI.
 - **Visual Studio-only plugins aren't supported yet.** Plugins that need C++/WinRT, MFC, ATL, NuGet or WebView2 are left out of the build, and SimWin names them.
 - **Rosetta 2 on Apple Silicon.** Windows x64 code runs through Rosetta: fine for UI work and debugging, not for benchmarking.
 
