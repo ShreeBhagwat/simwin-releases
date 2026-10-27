@@ -8,6 +8,6 @@ The complete corresponding source code is available from:
 - The macOS build recipe: https://github.com/Gcenx/macOS_Wine_builds (release `11.0_1`)
 - SimWin's own reproduction recipe: `Scripts/build-wine.sh` in the SimWin source.
 
-**Written offer.** For at least three years after we last distribute this version, Codeaamy Private Limited will provide anyone a copy of the complete corresponding Wine source code on request, for no more than the cost of physically performing the distribution. Write to the address on https://simwin.dev.
+**Written offer.** For at least three years after we last distribute this version, Codeaamy Private Limited will provide anyone a copy of the complete corresponding Wine source code on request, for no more than the cost of physically performing the distribution. Write to support@codeaamy.com.
 
 The full LGPL-2.1 text, as shipped in the Wine 11.0 source (`COPYING.LIB`), is in `Wine-COPYING.LIB.txt` next to this file (SimWin.app/Contents/Resources/licenses), and at https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
