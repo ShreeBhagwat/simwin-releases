@@ -21,8 +21,26 @@
   <br><sub>A real Windows build, running on a Mac. <code>Platform.isWindows</code> is true.</sub>
 </p>
 
-SimWin builds the real Windows debug build of your Flutter app on your Mac and runs it in a Windows 11-style simulator.
+SimWin compiles your Flutter app into a **real Windows `.exe`** on your Mac and runs it in a Windows 11-style simulator.
 Pick **SimWin · Windows 11** in VS Code or Android Studio and press Run. No PC, no virtual machine.
+
+## A real Windows app, not a look-alike
+
+SimWin isn't a Mac app made to look like Windows. It cross-compiles your Flutter project into a genuine Windows executable
+and runs that exact file, so you test the code your Windows users get.
+
+```console
+$ ls out/
+simwin_sample.exe  flutter_windows.dll  data/
+
+$ file out/simwin_sample.exe
+simwin_sample.exe: PE32+ executable (GUI) x86-64, for MS Windows
+```
+
+- **Compiled for Windows.** clang targeting Windows x64 (llvm-mingw), CMake and Ninja compile your runner and plugins into a 64-bit Windows executable.
+- **Flutter's Windows engine.** Your Dart code runs on `flutter_windows.dll`, the same engine `flutter build windows` uses, not Flutter's macOS engine.
+- **Windows code paths run.** `Platform.isWindows` is true, paths are `C:\…`, and your plugins' Win32 C++ code is compiled and called.
+- **Not a VM, not a look-alike.** Wine runs the `.exe` by translating its Windows API calls to macOS. There is no copy of Windows and no Mac version of your app.
 
 ## Install
 
