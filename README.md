@@ -114,6 +114,19 @@ simwin report                            # create a problem report to send to us
 
 Run `simwin help <command>` for the options.
 
+## Coming later
+
+SimWin starts with Flutter. Later, we plan to support other frameworks that can build Windows apps, so you can test those on your Mac in the same way.
+
+| Framework | Status |
+|---|---|
+| Flutter | Available in beta |
+| Kotlin Multiplatform | Planned |
+| Compose Multiplatform | Planned |
+| React Native (React Native for Windows) | Planned |
+
+Plans can change; we'll add each framework once its Windows builds run well in SimWin.
+
 ## Good to know
 
 > [!CAUTION]
