@@ -6,6 +6,15 @@
     <description>SimWin updates</description>
     <language>en</language>
     <item>
+      <title>SimWin 0.0.4</title>
+      <pubDate>Thu, 29 Oct 2026 18:31:06 GMT</pubDate>
+      <sparkle:version>20261029235829</sparkle:version>
+      <sparkle:shortVersionString>0.0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>SimWin 0.0.4 Beta</p><ul><li>Visual Studio support (optional): plugins written for Visual Studio now build too (NuGet packages, C++/WinRT, MSVC-only C++) instead of being left out. Setup asks once; after you accept Microsoft&#x27;s licence terms it downloads Microsoft&#x27;s C/C++ runtime and Windows SDK (about 330 MB). Add it later with `simwin setup --visual-studio`.</li><li>More pub.dev plugins build: small fixes for Windows code that only Microsoft&#x27;s compiler accepted, applied to SimWin&#x27;s copy only (your pub cache isn&#x27;t touched).</li><li>When a build fails, the run in your IDE stops instead of waiting forever.</li><li>Out-of-date dependencies are explained: if `flutter pub get` is needed (pubspec changed, Windows plugin folders missing or outdated), SimWin says so instead of showing compiler errors.</li><li>Uninstall SimWin… in the menu bar and Settings: a progress bar while everything is removed, then a confirmation when SimWin is uninstalled. Or in Terminal: `curl -fsSL https://simwin.dev/uninstall.sh | bash`.</li><li>Uninstalling now also removes the Windows file associations Wine added to your home folder, and SimWin no longer creates them.</li><li>Quitting SimWin no longer hangs with SimWin left in the Dock when a Windows app doesn&#x27;t stop.</li><li>Help in Settings lists every `simwin` command.</li><li>Setup shows download speed and time left, and continues where it stopped if you close its window.</li><li>&quot;SimWin · Windows 11&quot; stays in your IDE&#x27;s device list: SimWin turns Flutter&#x27;s custom devices back on and re-registers itself if SimWin.app moved.</li><li>The simulator and your app move together when you drag the window, and stay together when other apps&#x27; windows are in between.</li><li>Signed with Developer ID and notarized by Apple. Universal (Apple Silicon and Intel), macOS 14 or later.</li></ul>]]></description>
+      <enclosure url="https://simwin.dev/download/SimWin-0.0.4.dmg" sparkle:edSignature="wcvgFrIW/ExVZcsWkmgEZOxclwdX+03f1Tg3kqUKAj+gZi8XAbn7P4CInRqlh6RZ+fhWgl4vWSFiANxCymK6Dg==" length="10635940" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>SimWin 0.0.3</title>
       <pubDate>Tue, 27 Oct 2026 20:47:46 GMT</pubDate>
       <sparkle:version>20261028015517</sparkle:version>
